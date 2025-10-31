@@ -1,5 +1,6 @@
 #📘 Full‑Stack Project Setup Documentation
 1. 🖥️ Backend (Node.js + Express + MongoDB)
+
 Step 1: Initialize Node Project
   
 $ npm init -y
@@ -22,26 +23,33 @@ $ npm install --save-dev nodemon
 nodemon restarts the server automatically when files change.
 
 Step 4: Create server.js
+
 Step 5: Run the Server
   
 $ nodemon server.js
+
 Step 6: Seeding Data into MongoDB
 
 
 #2. 🌐 Frontend (Angular)
+
 Step 1: Create Angular App
   
 $ ng new frontend --no-standalone --skip-tests
 $ cd frontend
+
 Step 2: Generate Quiz Component
   
 $ ng g c Quiz.component
+
 Step 3: Generate Quiz Service
   
 $ ng g s quiz
+
 Step 4: Generate Directive
 
 $ ng g d directives
+
 Step 5: Run Angular App
   
 $ ng serve
