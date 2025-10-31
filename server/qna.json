@@ -1,0 +1,1124 @@
+[
+  {
+    "questionId": 11,
+    "questionText": "Which Angular directive is used to conditionally include or exclude elements?",
+    "answerText": "The *ngIf directive is used to conditionally include or exclude elements.",
+    "technology": "Angular",
+    "options": [
+      "*ngIf",
+      "*ngFor",
+      "*ngSwitch",
+      "*ngShow"
+    ],
+    "explanation": "The *ngIf directive conditionally adds or removes elements from the DOM based on a boolean expression.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://angular.io/api/common/NgIf"
+  },
+  {
+    "questionId": 12,
+    "questionText": "Which Angular module is required for template-driven forms?",
+    "answerText": "FormsModule is required for template-driven forms.",
+    "technology": "Angular",
+    "options": [
+      "FormsModule",
+      "ReactiveFormsModule",
+      "HttpClientModule",
+      "CommonModule"
+    ],
+    "explanation": "FormsModule provides directives like ngModel for template-driven forms in Angular.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://angular.io/api/forms/FormsModule"
+  },
+  {
+    "questionId": 13,
+    "questionText": "What is Angular CLI primarily used for?",
+    "answerText": "Angular CLI is used to scaffold, build, test, and deploy Angular applications.",
+    "technology": "Angular",
+    "options": [
+      "To scaffold, build, test, and deploy Angular applications",
+      "To debug Angular applications only",
+      "To host Angular applications on the cloud",
+      "To minify CSS and HTML files"
+    ],
+    "explanation": "Angular CLI is a command-line interface tool that streamlines Angular development workflow from project creation to deployment.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://angular.io/cli"
+  },
+  {
+    "questionId": 14,
+    "questionText": "Which lifecycle hook is called once after the first ngOnChanges?",
+    "answerText": "ngOnInit is called once after the first ngOnChanges.",
+    "technology": "Angular",
+    "options": [
+      "ngOnInit",
+      "ngAfterViewInit",
+      "ngOnDestroy",
+      "ngDoCheck"
+    ],
+    "explanation": "ngOnInit is called once after the component is initialized and after the first ngOnChanges has been called.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://angular.io/api/core/OnInit"
+  },
+  {
+    "questionId": 15,
+    "questionText": "What is the purpose of Angular's HttpClientModule?",
+    "answerText": "HttpClientModule is used to make HTTP requests to backends.",
+    "technology": "Angular",
+    "options": [
+      "To make HTTP requests to backends",
+      "To handle routing in Angular",
+      "To manage state in Angular applications",
+      "To create animations in Angular"
+    ],
+    "explanation": "HttpClientModule provides the HttpClient service for making HTTP requests to communicate with backend services.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://angular.io/api/common/http/HttpClientModule"
+  },
+  {
+    "questionId": 16,
+    "questionText": "Which Angular decorator is used to define a service?",
+    "answerText": "@Injectable is used to define a service.",
+    "technology": "Angular",
+    "options": [
+      "@Injectable",
+      "@Component",
+      "@Service",
+      "@NgModule"
+    ],
+    "explanation": "The @Injectable decorator marks a class as available for dependency injection in Angular.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://angular.io/api/core/Injectable"
+  },
+  {
+    "questionId": 17,
+    "questionText": "What is Angular's change detection strategy used for?",
+    "answerText": "It determines how Angular checks for changes in component data and updates the DOM.",
+    "technology": "Angular",
+    "options": [
+      "To determine how Angular checks for changes and updates the DOM",
+      "To configure routing behavior",
+      "To manage HTTP interceptors",
+      "To define component templates"
+    ],
+    "explanation": "Change detection strategy controls when and how Angular checks component data for changes and updates the view accordingly.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://angular.io/api/core/ChangeDetectionStrategy"
+  },
+  {
+    "questionId": 18,
+    "questionText": "What is Angular Router used for?",
+    "answerText": "Angular Router is used for navigation between views or components.",
+    "technology": "Angular",
+    "options": [
+      "For navigation between views or components",
+      "For making HTTP requests",
+      "For state management",
+      "For form validation"
+    ],
+    "explanation": "Angular Router enables navigation between different views and components in a single-page application.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://angular.io/guide/router"
+  },
+  {
+    "questionId": 19,
+    "questionText": "What is Angular Ivy?",
+    "answerText": "Ivy is Angular's next-generation rendering engine for faster compilation and smaller bundles.",
+    "technology": "Angular",
+    "options": [
+      "Angular's next-generation rendering engine",
+      "A CSS framework for Angular",
+      "A testing framework",
+      "A state management library"
+    ],
+    "explanation": "Ivy is Angular's modern compilation and rendering pipeline that provides faster builds, smaller bundle sizes, and better debugging.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://angular.io/guide/ivy"
+  },
+  {
+    "questionId": 20,
+    "questionText": "Which Angular directive is used for looping over a collection?",
+    "answerText": "*ngFor is used to loop over a collection in Angular templates.",
+    "technology": "Angular",
+    "options": [
+      "*ngFor",
+      "*ngIf",
+      "*ngRepeat",
+      "*ngLoop"
+    ],
+    "explanation": "The *ngFor directive iterates over a collection and renders a template for each item in the collection.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://angular.io/api/common/NgForOf"
+  },
+  {
+    "questionId": 21,
+    "questionText": "Which method in Express is used to define middleware for GET requests?",
+    "answerText": "app.get() is used to define middleware for GET requests.",
+    "technology": "Express",
+    "options": [
+      "app.get()",
+      "app.use()",
+      "app.route()",
+      "app.request()"
+    ],
+    "explanation": "app.get() defines a route handler specifically for HTTP GET requests at a specified path.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#app.get.method"
+  },
+  {
+    "questionId": 22,
+    "questionText": "Which Express middleware is used to serve static files?",
+    "answerText": "express.static() is used to serve static files.",
+    "technology": "Express",
+    "options": [
+      "express.static()",
+      "express.serve()",
+      "express.files()",
+      "express.public()"
+    ],
+    "explanation": "express.static() is a built-in middleware function that serves static files like images, CSS, and JavaScript.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/starter/static-files.html"
+  },
+  {
+    "questionId": 23,
+    "questionText": "What does app.listen() do in Express?",
+    "answerText": "It starts the server and binds it to a port.",
+    "technology": "Express",
+    "options": [
+      "Starts the server and binds it to a port",
+      "Closes all active connections",
+      "Configures middleware",
+      "Defines a route handler"
+    ],
+    "explanation": "app.listen() binds and listens for connections on the specified host and port, starting the Express server.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#app.listen"
+  },
+  {
+    "questionId": 24,
+    "questionText": "Which object represents the HTTP request in Express?",
+    "answerText": "The req object represents the HTTP request.",
+    "technology": "Express",
+    "options": [
+      "req",
+      "res",
+      "request",
+      "http"
+    ],
+    "explanation": "The req object contains information about the HTTP request including parameters, headers, body, and more.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#req"
+  },
+  {
+    "questionId": 25,
+    "questionText": "Which object represents the HTTP response in Express?",
+    "answerText": "The res object represents the HTTP response.",
+    "technology": "Express",
+    "options": [
+      "res",
+      "req",
+      "response",
+      "reply"
+    ],
+    "explanation": "The res object is used to send the HTTP response back to the client with methods like send(), json(), and status().",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#res"
+  },
+  {
+    "questionId": 26,
+    "questionText": "How do you define a POST route in Express?",
+    "answerText": "Using app.post('/route', handler).",
+    "technology": "Express",
+    "options": [
+      "app.post('/route', handler)",
+      "app.get('/route', handler)",
+      "app.route('/route').post(handler)",
+      "app.create('/route', handler)"
+    ],
+    "explanation": "app.post() defines a route handler for HTTP POST requests at the specified path.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#app.post.method"
+  },
+  {
+    "questionId": 27,
+    "questionText": "What is middleware in Express?",
+    "answerText": "Middleware are functions that execute during the request-response cycle.",
+    "technology": "Express",
+    "options": [
+      "Functions that execute during the request-response cycle",
+      "Database connection handlers",
+      "Template engines",
+      "Static file servers"
+    ],
+    "explanation": "Middleware functions have access to req, res, and next, and can modify the request/response or end the cycle.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://expressjs.com/en/guide/using-middleware.html"
+  },
+  {
+    "questionId": 28,
+    "questionText": "Which Express method is used to redirect a request?",
+    "answerText": "res.redirect() is used to redirect a request.",
+    "technology": "Express",
+    "options": [
+      "res.redirect()",
+      "res.forward()",
+      "res.route()",
+      "res.navigate()"
+    ],
+    "explanation": "res.redirect() sends a redirect response to the client, causing the browser to navigate to a different URL.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#res.redirect"
+  },
+  {
+    "questionId": 29,
+    "questionText": "How do you send JSON data in Express?",
+    "answerText": "Using res.json(data).",
+    "technology": "Express",
+    "options": [
+      "res.json(data)",
+      "res.send(data)",
+      "res.write(data)",
+      "res.stringify(data)"
+    ],
+    "explanation": "res.json() sends a JSON response and automatically sets the Content-Type header to application/json.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#res.json"
+  },
+  {
+    "questionId": 30,
+    "questionText": "Which Express middleware is commonly used for parsing JSON?",
+    "answerText": "express.json() is used for parsing JSON request bodies.",
+    "technology": "Express",
+    "options": [
+      "express.json()",
+      "body-parser",
+      "express.urlencoded()",
+      "express.parse()"
+    ],
+    "explanation": "express.json() is built-in middleware that parses incoming requests with JSON payloads.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://expressjs.com/en/4x/api.html#express.json"
+  },
+  {
+    "questionId": 31,
+    "questionText": "Which Android component represents a single screen with a UI?",
+    "answerText": "An Activity represents a single screen with a UI.",
+    "technology": "Android",
+    "options": [
+      "Activity",
+      "Service",
+      "Fragment",
+      "BroadcastReceiver"
+    ],
+    "explanation": "An Activity represents a single screen with a user interface in an Android application.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/guide/components/activities/intro-activities"
+  },
+  {
+    "questionId": 32,
+    "questionText": "Which file declares app permissions in Android?",
+    "answerText": "AndroidManifest.xml declares app permissions.",
+    "technology": "Android",
+    "options": [
+      "AndroidManifest.xml",
+      "build.gradle",
+      "strings.xml",
+      "permissions.xml"
+    ],
+    "explanation": "The AndroidManifest.xml file contains essential app information including required permissions, components, and configuration.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/guide/topics/manifest/manifest-intro"
+  },
+  {
+    "questionId": 33,
+    "questionText": "Which layout arranges elements vertically or horizontally?",
+    "answerText": "LinearLayout arranges elements vertically or horizontally.",
+    "technology": "Android",
+    "options": [
+      "LinearLayout",
+      "RelativeLayout",
+      "ConstraintLayout",
+      "FrameLayout"
+    ],
+    "explanation": "LinearLayout arranges its child views in a single direction, either vertically or horizontally.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/guide/topics/ui/layout/linear"
+  },
+  {
+    "questionId": 34,
+    "questionText": "Which Android component is used for background tasks?",
+    "answerText": "A Service is used for background tasks.",
+    "technology": "Android",
+    "options": [
+      "Service",
+      "Activity",
+      "Fragment",
+      "ContentProvider"
+    ],
+    "explanation": "A Service is an application component that performs long-running operations in the background without a user interface.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/guide/components/services"
+  },
+  {
+    "questionId": 35,
+    "questionText": "Which language is officially supported for Android development?",
+    "answerText": "Kotlin is the official language for Android development.",
+    "technology": "Android",
+    "options": [
+      "Kotlin",
+      "Java",
+      "Swift",
+      "C++"
+    ],
+    "explanation": "Kotlin is Google's preferred and officially supported language for modern Android development.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/kotlin"
+  },
+  {
+    "questionId": 36,
+    "questionText": "Which tool is used to build Android apps?",
+    "answerText": "Android Studio is the official IDE for Android development.",
+    "technology": "Android",
+    "options": [
+      "Android Studio",
+      "Eclipse",
+      "Visual Studio",
+      "Xcode"
+    ],
+    "explanation": "Android Studio is the official integrated development environment for Android app development.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/studio"
+  },
+  {
+    "questionId": 37,
+    "questionText": "Which file contains project dependencies in Android?",
+    "answerText": "build.gradle contains project dependencies.",
+    "technology": "Android",
+    "options": [
+      "build.gradle",
+      "AndroidManifest.xml",
+      "settings.gradle",
+      "gradle.properties"
+    ],
+    "explanation": "The build.gradle file specifies project dependencies, SDK versions, and build configurations.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/studio/build"
+  },
+  {
+    "questionId": 38,
+    "questionText": "Which Android component listens for system-wide broadcast messages?",
+    "answerText": "BroadcastReceiver listens for system-wide broadcast messages.",
+    "technology": "Android",
+    "options": [
+      "BroadcastReceiver",
+      "Service",
+      "Activity",
+      "ContentProvider"
+    ],
+    "explanation": "BroadcastReceiver responds to system-wide broadcast announcements like battery low, screen off, or custom broadcasts.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://developer.android.com/guide/components/broadcasts"
+  },
+  {
+    "questionId": 39,
+    "questionText": "Which database is built into Android?",
+    "answerText": "SQLite is the built-in database in Android.",
+    "technology": "Android",
+    "options": [
+      "SQLite",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "explanation": "SQLite is a lightweight relational database that is embedded in the Android framework.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/training/data-storage/sqlite"
+  },
+  {
+    "questionId": 40,
+    "questionText": "Which XML file defines the UI layout in Android?",
+    "answerText": "Layout XML files define the UI layout in Android.",
+    "technology": "Android",
+    "options": [
+      "Layout XML files",
+      "AndroidManifest.xml",
+      "strings.xml",
+      "styles.xml"
+    ],
+    "explanation": "Layout XML files in the res/layout directory define the structure and appearance of user interface elements.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.android.com/guide/topics/ui/declaring-layout"
+  },
+  {
+    "questionId": 41,
+    "questionText": "Which language is primarily used for iOS development?",
+    "answerText": "Swift is primarily used for iOS development.",
+    "technology": "iOS",
+    "options": [
+      "Swift",
+      "Objective-C",
+      "Kotlin",
+      "Java"
+    ],
+    "explanation": "Swift is Apple's modern, safe, and fast programming language for iOS, macOS, and other Apple platforms.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.apple.com/swift/"
+  },
+  {
+    "questionId": 42,
+    "questionText": "Which IDE is used for iOS development?",
+    "answerText": "Xcode is the official IDE for iOS development.",
+    "technology": "iOS",
+    "options": [
+      "Xcode",
+      "Android Studio",
+      "Visual Studio",
+      "Eclipse"
+    ],
+    "explanation": "Xcode is Apple's integrated development environment for creating apps for iOS, macOS, watchOS, and tvOS.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.apple.com/xcode/"
+  },
+  {
+    "questionId": 43,
+    "questionText": "Which file format is used for iOS UI design?",
+    "answerText": "Storyboard files are used for iOS UI design.",
+    "technology": "iOS",
+    "options": [
+      "Storyboard",
+      "XIB",
+      "XML",
+      "JSON"
+    ],
+    "explanation": "Storyboards are visual representations of an app's user interface, showing screens and the connections between them.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html"
+  },
+  {
+    "questionId": 44,
+    "questionText": "Which framework is used for building iOS user interfaces?",
+    "answerText": "UIKit is used for building iOS user interfaces.",
+    "technology": "iOS",
+    "options": [
+      "UIKit",
+      "SwiftUI",
+      "Core Graphics",
+      "Foundation"
+    ],
+    "explanation": "UIKit is the traditional framework for constructing and managing iOS user interfaces programmatically or with Interface Builder.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.apple.com/documentation/uikit"
+  },
+  {
+    "questionId": 45,
+    "questionText": "Which Apple language preceded Swift for iOS development?",
+    "answerText": "Objective-C preceded Swift for iOS development.",
+    "technology": "iOS",
+    "options": [
+      "Objective-C",
+      "C++",
+      "Java",
+      "C#"
+    ],
+    "explanation": "Objective-C was the primary language for iOS development before Swift was introduced in 2014.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+  },
+  {
+    "questionId": 46,
+    "questionText": "Which file contains app configuration in iOS?",
+    "answerText": "Info.plist contains app configuration in iOS.",
+    "technology": "iOS",
+    "options": [
+      "Info.plist",
+      "config.xml",
+      "app.json",
+      "settings.plist"
+    ],
+    "explanation": "Info.plist is a property list file containing key-value pairs that specify app configuration and metadata.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html"
+  },
+  {
+    "questionId": 47,
+    "questionText": "Which iOS component manages app lifecycle events?",
+    "answerText": "UIApplicationDelegate manages app lifecycle events.",
+    "technology": "iOS",
+    "options": [
+      "UIApplicationDelegate",
+      "UIViewController",
+      "AppDelegate",
+      "SceneDelegate"
+    ],
+    "explanation": "UIApplicationDelegate is a protocol that handles app lifecycle events like launch, termination, and state transitions.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://developer.apple.com/documentation/uikit/uiapplicationdelegate"
+  },
+  {
+    "questionId": 48,
+    "questionText": "Which database is commonly used in iOS apps?",
+    "answerText": "Core Data is commonly used in iOS apps.",
+    "technology": "iOS",
+    "options": [
+      "Core Data",
+      "SQLite",
+      "Realm",
+      "Firebase"
+    ],
+    "explanation": "Core Data is Apple's framework for managing object graphs and persisting data in iOS applications.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.apple.com/documentation/coredata"
+  },
+  {
+    "questionId": 21,
+    "questionText": "What is Node.js, and what is its underlying JavaScript engine?",
+    "answerText": "Node.js is an open-source, cross-platform JavaScript runtime environment. It uses Google's V8 JavaScript engine.",
+    "technology": "Node",
+    "options": [
+      "V8 JavaScript engine",
+      "SpiderMonkey engine",
+      "Chakra engine",
+      "JavaScriptCore engine"
+    ],
+    "explanation": "Node.js is built on Chrome's V8 JavaScript engine, enabling JavaScript execution outside the browser.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/en/about/"
+  },
+  {
+    "questionId": 22,
+    "questionText": "Explain the 'non-blocking' I/O model used by Node.js.",
+    "answerText": "Non-blocking I/O means that an operation (like reading a file or a database query) does not halt the execution of the rest of the code; instead, it uses callbacks, Promises, or Async/Await to handle the result asynchronously.",
+    "technology": "Node",
+    "options": [
+      "Operations use callbacks, Promises, or Async/Await asynchronously",
+      "All operations execute sequentially",
+      "Operations are queued and executed one at a time",
+      "Multiple threads handle each operation"
+    ],
+    "explanation": "Non-blocking I/O allows Node.js to handle multiple operations concurrently without waiting for each to complete.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/"
+  },
+  {
+    "questionId": 23,
+    "questionText": "What is the purpose of the `package.json` file?",
+    "answerText": "It contains metadata about the project, including dependencies (required packages), scripts (commands like `npm start`), version, and author information.",
+    "technology": "Node",
+    "options": [
+      "Contains project metadata, dependencies, and scripts",
+      "Stores environment variables",
+      "Configures the Node.js runtime",
+      "Defines database connection settings"
+    ],
+    "explanation": "package.json is the manifest file for Node.js projects, containing all project configuration and dependency information.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://docs.npmjs.com/cli/v9/configuring-npm/package-json"
+  },
+  {
+    "questionId": 24,
+    "questionText": "Name two core modules built into Node.js.",
+    "answerText": "Common core modules include `fs` (File System), `http`, `path`, and `events`.",
+    "technology": "Node",
+    "options": [
+      "fs and http",
+      "express and mongoose",
+      "react and angular",
+      "jquery and lodash"
+    ],
+    "explanation": "Core modules like fs, http, path, and events are built into Node.js and don't require installation.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/"
+  },
+  {
+    "questionId": 25,
+    "questionText": "What is the role of the Event Loop in Node.js?",
+    "answerText": "The Event Loop is a core mechanism that handles asynchronous callbacks and I/O operations, allowing Node.js to perform non-blocking operations efficiently.",
+    "technology": "Node",
+    "options": [
+      "Handles asynchronous callbacks and I/O operations",
+      "Manages memory allocation",
+      "Compiles JavaScript code",
+      "Handles HTTP requests only"
+    ],
+    "explanation": "The Event Loop is fundamental to Node.js's asynchronous architecture, enabling concurrent operations on a single thread.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/"
+  },
+  {
+    "questionId": 26,
+    "questionText": "How do you export a function or object from one Node.js module so it can be used in another?",
+    "answerText": "You use `module.exports = ...` or `exports.functionName = ...` in the source file.",
+    "technology": "Node",
+    "options": [
+      "module.exports or exports",
+      "export default",
+      "return statement",
+      "global.functionName"
+    ],
+    "explanation": "module.exports and exports are used to expose functions, objects, or values from a module for use in other files.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/modules.html#modules_module_exports"
+  },
+  {
+    "questionId": 27,
+    "questionText": "What is the difference between a global installation and a local installation of an npm package?",
+    "answerText": "A global installation (`npm install -g`) installs a package for use from the command line (e.g., `nodemon`), while a local installation is installed into the `node_modules` directory for the specific project.",
+    "technology": "Node",
+    "options": [
+      "Global is for CLI tools; local is for project dependencies",
+      "Global is faster; local is slower",
+      "Global requires sudo; local doesn't",
+      "Global is for production; local is for development"
+    ],
+    "explanation": "Global packages are available system-wide as CLI tools, while local packages are project-specific dependencies.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://docs.npmjs.com/downloading-and-installing-packages-globally"
+  },
+  {
+    "questionId": 28,
+    "questionText": "What is the utility of the `dotenv` package in a Node.js application?",
+    "answerText": "It loads environment variables from a `.env` file into `process.env`, keeping sensitive configuration data (like database credentials) out of source control.",
+    "technology": "Node",
+    "options": [
+      "Loads environment variables from .env file",
+      "Encrypts sensitive data",
+      "Manages package dependencies",
+      "Handles file uploads"
+    ],
+    "explanation": "dotenv helps manage environment-specific configuration securely by keeping sensitive data out of the codebase.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://www.npmjs.com/package/dotenv"
+  },
+  {
+    "questionId": 29,
+    "questionText": "In Node.js, what is the standard method for handling file operations asynchronously?",
+    "answerText": "Using the asynchronous methods provided by the `fs` module, such as `fs.readFile()` with a callback, or using the promise-based `fs/promises` module.",
+    "technology": "Node",
+    "options": [
+      "fs.readFile() with callbacks or fs/promises",
+      "fs.readFileSync() only",
+      "Using third-party libraries only",
+      "XMLHttpRequest"
+    ],
+    "explanation": "Node.js provides both callback-based and promise-based APIs for asynchronous file operations through the fs module.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://nodejs.org/api/fs.html"
+  },
+  {
+    "questionId": 30,
+    "questionText": "What is NPM?",
+    "answerText": "NPM stands for Node Package Manager. It is both a command-line utility for installing Node packages and an online repository for sharing open-source code.",
+    "technology": "Node",
+    "options": [
+      "Node Package Manager - CLI tool and repository",
+      "Node Programming Module",
+      "Network Package Manager",
+      "Node Project Manager"
+    ],
+    "explanation": "NPM is the default package manager for Node.js, providing access to hundreds of thousands of reusable packages.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://docs.npmjs.com/about-npm"
+  },
+  {
+    "questionId": 31,
+    "questionText": "What is the fundamental difference between a document in MongoDB and a row in a relational database?",
+    "answerText": "A MongoDB document is a JSON-like structure (BSON) that can have a flexible, non-uniform schema, whereas a relational row must conform strictly to the table's predefined schema.",
+    "technology": "MongoDB",
+    "options": [
+      "MongoDB documents must match a strict schema like relational rows",
+      "MongoDB documents are JSON-like and flexible",
+      "MongoDB documents are stored in tables with fixed schemas",
+      "MongoDB documents are binary blobs without structure"
+    ],
+    "explanation": "MongoDB documents are stored in BSON format and allow flexible, non-uniform schemas, unlike relational rows which must follow a fixed schema.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/core/document"
+  },
+  {
+    "questionId": 32,
+    "questionText": "In MongoDB, what is the equivalent of a 'table' in a relational database?",
+    "answerText": "The equivalent of a table in MongoDB is a Collection.",
+    "technology": "MongoDB",
+    "options": [
+      "Collection",
+      "Document",
+      "Schema",
+      "Field"
+    ],
+    "explanation": "In MongoDB, a collection is a group of documents and serves the same purpose as a table in a relational database.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/core/databases-and-collections"
+  },
+  {
+    "questionId": 33,
+    "questionText": "What does ACID stand for, and why is MongoDB often described as not being fully ACID-compliant (historically)?",
+    "answerText": "ACID stands for Atomicity, Consistency, Isolation, Durability. MongoDB historically prioritized availability and partition tolerance (CAP Theorem) over strict immediate consistency across all servers.",
+    "technology": "MongoDB",
+    "options": [
+      "Availability, Consistency, Isolation, Durability",
+      "Atomicity, Concurrency, Integrity, Durability",
+      "Atomicity, Consistency, Isolation, Durability",
+      "Access, Control, Integrity, Durability"
+    ],
+    "explanation": "MongoDB historically emphasized availability and partition tolerance over strict consistency, aligning with the CAP theorem.",
+    "difficulty": "Hard",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/core/transactions"
+  },
+  {
+    "questionId": 34,
+    "questionText": "What is Mongoose, and why is it used with Express/Node?",
+    "answerText": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It simplifies interactions by providing schema validation, pre- and post-hooks, and a more structured way to write queries.",
+    "technology": "MongoDB",
+    "options": [
+      "An ODM library for MongoDB and Node.js",
+      "A database management system",
+      "A web framework for Node.js",
+      "A testing framework"
+    ],
+    "explanation": "Mongoose provides a schema-based solution to model application data and includes built-in type casting, validation, and query building.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://mongoosejs.com/docs/guide.html"
+  },
+  {
+    "questionId": 35,
+    "questionText": "How does MongoDB handle relationships between data, given it is non-relational?",
+    "answerText": "Relationships are handled primarily through embedding (nested documents) or referencing (storing the `_id` of one document inside another, similar to foreign keys).",
+    "technology": "MongoDB",
+    "options": [
+      "Through embedding or referencing",
+      "Using foreign key constraints",
+      "Using JOIN operations",
+      "Using stored procedures"
+    ],
+    "explanation": "MongoDB supports two approaches: embedding related data within documents or referencing documents using their _id values.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/core/data-modeling-introduction"
+  },
+  {
+    "questionId": 36,
+    "questionText": "What is the purpose of the `_id` field in every MongoDB document?",
+    "answerText": "The `_id` field is the primary key, unique identifier, and index for every document in a MongoDB collection.",
+    "technology": "MongoDB",
+    "options": [
+      "Primary key and unique identifier",
+      "Foreign key reference",
+      "Timestamp field",
+      "Version control field"
+    ],
+    "explanation": "MongoDB automatically creates an _id field with a unique ObjectId value for each document if not provided.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/core/document/#the-_id-field"
+  },
+  {
+    "questionId": 37,
+    "questionText": "What is an Index in MongoDB, and why are they important?",
+    "answerText": "An index is a special data structure that stores a small portion of the data set in an easy-to-traverse form. They are critical for speeding up query performance.",
+    "technology": "MongoDB",
+    "options": [
+      "A data structure that speeds up query performance",
+      "A backup of the database",
+      "A validation rule",
+      "A collection of documents"
+    ],
+    "explanation": "Indexes support efficient execution of queries by reducing the number of documents MongoDB must scan.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/indexes/"
+  },
+  {
+    "questionId": 38,
+    "questionText": "Which MongoDB shell command is used to retrieve all documents from a collection named 'users'?",
+    "answerText": "`db.users.find({})`",
+    "technology": "MongoDB",
+    "options": [
+      "db.users.find({})",
+      "db.users.select()",
+      "db.users.getAll()",
+      "db.users.query()"
+    ],
+    "explanation": "The find() method retrieves documents from a collection, with an empty object {} matching all documents.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/reference/method/db.collection.find/"
+  },
+  {
+    "questionId": 39,
+    "questionText": "Define the term 'Schema' as it is used in Mongoose.",
+    "answerText": "A Mongoose Schema defines the structure of the documents within a MongoDB collection, including data types, validation rules, and default values.",
+    "technology": "MongoDB",
+    "options": [
+      "Defines document structure and validation rules",
+      "A collection of indexes",
+      "A backup strategy",
+      "A query language"
+    ],
+    "explanation": "Mongoose schemas provide structure to MongoDB collections and enable features like validation, virtuals, and middleware.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://mongoosejs.com/docs/guide.html"
+  },
+  {
+    "questionId": 40,
+    "questionText": "In MongoDB's query language, what is the query operator used for 'greater than'?",
+    "answerText": "The operator is `$gt` (greater than), used in the format `{ field: { $gt: value } }`.",
+    "technology": "MongoDB",
+    "options": [
+      "$gt",
+      "$gte",
+      "$greater",
+      ">="
+    ],
+    "explanation": "$gt is a comparison operator that selects documents where the field value is greater than the specified value.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://www.mongodb.com/docs/manual/reference/operator/query/gt/"
+  },
+  {
+    "questionId": 41,
+    "questionText": "What is a 'port' in networking, and why does an Express server need one?",
+    "answerText": "A port is a communication endpoint for a network connection. An Express server needs a port (e.g., 3000) to listen for and distinguish incoming network requests directed to the specific application.",
+    "technology": "Backend",
+    "options": [
+      "To listen for incoming network requests",
+      "To store user credentials",
+      "To define the database schema",
+      "To encrypt HTTP traffic"
+    ],
+    "explanation": "A port is a communication endpoint. Express servers use ports (e.g., 3000) to listen for incoming requests.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.mozilla.org/en-US/docs/Glossary/Port"
+  },
+  {
+    "questionId": 42,
+    "questionText": "Explain the difference between authorization and authentication in a backend system.",
+    "answerText": "Authentication is verifying who a user is (e.g., username/password). Authorization is determining what that authenticated user is allowed to do (e.g., access admin routes).",
+    "technology": "Backend",
+    "options": [
+      "Authentication verifies identity; authorization checks permissions",
+      "Authentication checks permissions; authorization verifies identity",
+      "Authentication encrypts data; authorization decrypts it",
+      "Authentication is for admins; authorization is for users"
+    ],
+    "explanation": "Authentication verifies who a user is, while authorization determines what that user is allowed to do.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization"
+  },
+  {
+    "questionId": 43,
+    "questionText": "What is an API endpoint?",
+    "answerText": "An API endpoint is the URL (URI) that a client sends requests to, combined with the specific HTTP method (e.g., POST to `/api/users`).",
+    "technology": "Backend",
+    "options": [
+      "A URL combined with an HTTP method",
+      "A database connection string",
+      "A server configuration file",
+      "A user authentication token"
+    ],
+    "explanation": "An API endpoint is a specific path and method combination where API requests are sent and responses are returned.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces"
+  },
+  {
+    "questionId": 44,
+    "questionText": "What is the significance of the `201 Created` HTTP status code?",
+    "answerText": "It indicates that the request has succeeded and has led to the creation of a new resource, typically used after a successful POST request.",
+    "technology": "Backend",
+    "options": [
+      "Request succeeded and created a new resource",
+      "Request was unauthorized",
+      "Resource was not found",
+      "Server encountered an error"
+    ],
+    "explanation": "Status code 201 confirms successful resource creation and is commonly returned after POST requests.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201"
+  },
+  {
+    "questionId": 45,
+    "questionText": "What is the standard purpose of the HTTP PATCH method?",
+    "answerText": "The PATCH method is used to apply partial modifications to a resource, sending only the data fields that need to be updated.",
+    "technology": "Backend",
+    "options": [
+      "Apply partial modifications to a resource",
+      "Delete a resource",
+      "Create a new resource",
+      "Retrieve a resource"
+    ],
+    "explanation": "PATCH allows partial updates to resources, unlike PUT which typically replaces the entire resource.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH"
+  },
+  {
+    "questionId": 46,
+    "questionText": "What is a RESTful API?",
+    "answerText": "A RESTful API is an API that adheres to the constraints of the REST architectural style, typically using standard HTTP methods (GET, POST, PUT, DELETE) and resource-based URLs.",
+    "technology": "Backend",
+    "options": [
+      "An API following REST architectural constraints",
+      "An API that only uses JSON",
+      "An API for mobile applications",
+      "An API with no authentication"
+    ],
+    "explanation": "REST APIs use HTTP methods and follow principles like statelessness, resource-based URLs, and uniform interfaces.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://restfulapi.net/"
+  },
+  {
+    "questionId": 47,
+    "questionText": "What is server-side validation, and why is it mandatory even if frontend validation exists?",
+    "answerText": "Server-side validation checks input data on the server before processing or storing it. It is mandatory because malicious users can bypass frontend validation, making the backend the only reliable gatekeeper for data integrity.",
+    "technology": "Backend",
+    "options": [
+      "It's mandatory because frontend validation can be bypassed",
+      "It's only needed if there's no frontend validation",
+      "It's optional for trusted users",
+      "It's only for admin operations"
+    ],
+    "explanation": "Server-side validation is essential security practice since client-side validation can be easily circumvented by attackers.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs"
+  },
+  {
+    "questionId": 48,
+    "questionText": "What is a common method for handling sessions or user status in a modern stateless API?",
+    "answerText": "JSON Web Tokens (JWTs) are commonly used. They store user information securely and are passed with every request, eliminating the need for server-side session state.",
+    "technology": "Backend",
+    "options": [
+      "JSON Web Tokens (JWTs)",
+      "Cookies only",
+      "Server-side sessions",
+      "Browser local storage"
+    ],
+    "explanation": "JWTs enable stateless authentication by encoding user information in a token that's verified on each request.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://jwt.io/introduction"
+  },
+  {
+    "questionId": 49,
+    "questionText": "In a backend context, what is a DTO?",
+    "answerText": "DTO stands for Data Transfer Object. It is an object used to define how data will be sent over the network, often used to shape the API request or response body, omitting unnecessary fields.",
+    "technology": "Backend",
+    "options": [
+      "Data Transfer Object",
+      "Database Transaction Object",
+      "Dynamic Type Object",
+      "Document Template Object"
+    ],
+    "explanation": "DTOs are used to structure data for API communication, often separating the internal data model from what's exposed externally.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://martinfowler.com/eaaCatalog/dataTransferObject.html"
+  },
+  {
+    "questionId": 50,
+    "questionText": "Name a key security vulnerability that backend developers must guard against when handling user input.",
+    "answerText": "SQL Injection (or NoSQL injection in MongoDB) and Cross-Site Scripting (XSS) are critical vulnerabilities. Sanitizing and validating all input is essential.",
+    "technology": "Backend",
+    "options": [
+      "SQL Injection and Cross-Site Scripting (XSS)",
+      "Memory leaks",
+      "Slow queries",
+      "Missing indexes"
+    ],
+    "explanation": "Input validation and sanitization are crucial to prevent injection attacks that can compromise data security.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://owasp.org/www-community/attacks/SQL_Injection"
+  },
+  {
+    "questionId": 51,
+    "questionText": "Which Node.js module is used to create a web server?",
+    "answerText": "The http module is used to create a web server in Node.js.",
+    "technology": "Node",
+    "options": ["http", "fs", "path", "os"],
+    "explanation": "The built-in http module in Node.js provides functionality to create and manage web servers. It allows handling requests and sending responses.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/http.html"
+  },
+  {
+    "questionId": 52,
+    "questionText": "Which method is used to read a file asynchronously in Node.js?",
+    "answerText": "The fs.readFile method is used to read a file asynchronously in Node.js.",
+    "technology": "Node",
+    "options": ["fs.readFile", "fs.readFileSync", "fs.open", "fs.writeFile"],
+    "explanation": "fs.readFile is an asynchronous method provided by the fs module to read files without blocking the event loop.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback"
+  },
+  {
+    "questionId": 53,
+    "questionText": "What is the purpose of the 'path' module in Node.js?",
+    "answerText": "The path module provides utilities for working with file and directory paths.",
+    "technology": "Node",
+    "options": ["To handle HTTP requests", "To work with file paths", "To manage databases", "To create servers"],
+    "explanation": "The path module offers utilities to work with file and directory paths in a platform-independent way.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/path.html"
+  },
+  {
+    "questionId": 54,
+    "questionText": "Which object in Node.js is used to handle events?",
+    "answerText": "The EventEmitter class is used to handle events in Node.js.",
+    "technology": "Node",
+    "options": ["EventEmitter", "Emitter", "Events", "EventHandler"],
+    "explanation": "The EventEmitter class from the 'events' module allows you to create and handle custom events in Node.js.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://nodejs.org/api/events.html"
+  },
+  {
+    "questionId": 55,
+    "questionText": "Which global object in Node.js is used to access command-line arguments?",
+    "answerText": "The process.argv array is used to access command-line arguments in Node.js.",
+    "technology": "Node",
+    "options": ["process.argv", "global.args", "cli.input", "node.args"],
+    "explanation": "process.argv is an array containing the command-line arguments passed when the Node.js process was launched.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://nodejs.org/api/process.html#processargv"
+  },
+  {
+    "questionId": 56,
+    "questionText": "Which method is used to create a new buffer in Node.js?",
+    "answerText": "The Buffer.from method is used to create a new buffer in Node.js.",
+    "technology": "Node",
+    "options": ["Buffer.from", "new Buffer()", "Buffer.create", "Buffer.allocUnsafe"],
+    "explanation": "Buffer.from is the recommended way to create a new buffer from a string, array, or another buffer.",
+    "difficulty": "Medium",
+    "referenceUrl": "https://nodejs.org/api/buffer.html#static-method-bufferfromarray"
+  },
+  {
+    "questionId": 57,
+    "questionText": "Which module in Node.js is used to create child processes?",
+    "answerText": "The child_process module is used to create child processes in Node.js.",
+    "technology": "Node",
+    "options": ["child_process", "process", "cluster", "os"],
+    "explanation": "The child_process module allows you to spawn new processes and execute shell commands from a Node.js application.",
+    "difficulty": "Hard",
+    "referenceUrl": "https://nodejs.org/api/child_process.html"
+  },
+  {
+    "questionId": 58,
+    "questionText": "What does the require() function do in Node.js?",
+    "answerText": "The require() function is used to import modules in Node.js.",
+    "technology": "Node",
+    "options": ["It exports modules", "It imports modules", "It compiles code", "It starts the server"],
+    "explanation": "require() is a built-in function used to load modules, JSON, and local files into a Node.js application.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/modules.html#requireid"
+  },
+  {
+    "questionId": 59,
+    "questionText": "Which method is used to write data to a file asynchronously in Node.js?",
+    "answerText": "The fs.writeFile method is used to write data to a file asynchronously in Node.js.",
+    "technology": "Node",
+    "options": ["fs.writeFile", "fs.write", "fs.appendFileSync", "fs.createWriteStream"],
+    "explanation": "fs.writeFile writes data to a file asynchronously, replacing the file if it already exists.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback"
+  },
+  {
+    "questionId": 60,
+    "questionText": "Which Node.js module provides operating system-related utility methods?",
+    "answerText": "The os module provides operating system-related utility methods in Node.js.",
+    "technology": "Node",
+    "options": ["os", "system", "process", "env"],
+    "explanation": "The os module provides methods to get information about the operating system, such as CPU, memory, and platform.",
+    "difficulty": "Easy",
+    "referenceUrl": "https://nodejs.org/api/os.html"
+  }
+
+
+]
